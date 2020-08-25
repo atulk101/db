@@ -1,0 +1,2582 @@
+{
+  "users": [
+    {
+      "name": "peter",
+      "email": "peter@echms.com",
+      "empId": "450931",
+      "cards": [
+        {
+          "cardNo": "3019",
+          "cardName": "Access Card"
+        },
+        {
+          "cardNo": "3018",
+          "cardName": "Access Card"
+        },
+        {
+          "cardNo": "3023",
+          "cardName": "Access Card"
+        },
+        {
+          "cardNo": "3012",
+          "cardName": "Access Card"
+        },
+        {
+          "cardNo": "3031",
+          "cardName": "Server Room"
+        },
+        {
+          "cardNo": "3032",
+          "cardName": "Admin Module II"
+        }
+      ]
+    },
+    {
+      "name": "Tom",
+      "email": "Tom@echms.com",
+      "empId": "450932",
+      "cards": [
+        {
+          "cardNo": "3020",
+          "cardName": "Access Card1"
+        },
+        {
+          "cardNo": "3021",
+          "cardName": "Access Card2"
+        },
+        {
+          "cardNo": "3025",
+          "cardName": "Access Card3"
+        }
+      ]
+    },
+    {
+      "name": "decolta",
+      "email": "decolta@echms.com",
+      "empId": "450933",
+      "cards": [
+        {
+          "cardNo": "3433",
+          "cardName": "Employee Card"
+        }
+      ]
+    }
+  ],
+  "resetPin": {
+    "empId": "450931",
+    "cardNo": "3021"
+  },
+  "adconfig": {
+    "ldapPath": "ldappath",
+    "domainName": "admin",
+    "userName": "admin@mail.com",
+    "password": "admin123",
+    "notifiyOnSyncFailure": "admin@mail.com"
+  },
+  "privilegeMappingPost": {
+    "operationId": "808e9a0b-8ddd-4cbd-ae2f-0775401a33c0",
+    "privilegeViewList": [
+      "AD1",
+      "AD2",
+      "Ad3"
+    ]
+  },
+  "privilegeMapping": [
+    {
+      "operationName": "ACS Onboard",
+      "rowOrder": 8,
+      "operationId": "808e9a0b-8ddd-4cbd-ae2f-0775401a33c0",
+      "privilegeViewList": [
+        "AD1",
+        "AD2"
+      ],
+      "privilegeModifyList": []
+    },
+    {
+      "operationName": "Dashboard",
+      "rowOrder": 3,
+      "operationId": "34d1aeca-d2f5-4bf2-90f2-5c0c0bfcda52",
+      "privilegeViewList": [],
+      "privilegeModifyList": []
+    },
+    {
+      "operationName": "Admin",
+      "rowOrder": 9,
+      "operationId": "878ecb24-2554-43af-8fa5-6b32ccb77896",
+      "privilegeViewList": [],
+      "privilegeModifyList": []
+    }
+  ],
+  "getMasterMapping": {
+    "operator": [
+      {
+        "mappingID": "abc-cde",
+        "property": "empName",
+        "isUnique": "0"
+      },
+      {
+        "mappingID": "cde-abc",
+        "property": "empID",
+        "isUnique": "0"
+      },
+      {
+        "mappingID": "tyu-uip",
+        "property": "location",
+        "isUnique": "1"
+      },
+      {
+        "mappingID": "nnm-klp",
+        "property": "psno",
+        "isUnique": "0"
+      },
+      {
+        "mappingID": "ttp-lkw",
+        "property": "deptID",
+        "isUnique": "0"
+      }
+    ],
+    "badgeHolder": [
+      {
+        "mappingID": "ert-nmk",
+        "property": "fName",
+        "isUnique": "0"
+      },
+      {
+        "mappingID": "tyk-trf",
+        "property": "uid",
+        "isUnique": "0"
+      },
+      {
+        "mappingID": "qwe-pok",
+        "property": "location",
+        "isUnique": "1"
+      },
+      {
+        "mappingID": "pon-bnu",
+        "property": "wks",
+        "isUnique": "0"
+      },
+      {
+        "mappingID": "plg-tfx",
+        "property": "dept",
+        "isUnique": "0"
+      }
+    ]
+  },
+  "smtpconfig": {
+    "senderName": "hon@12311",
+    "senderEmail": "Hon@mail.com",
+    "hostName": "www.hostname.com",
+    "port": 12333,
+    "userEmail": "mail@mail.comss",
+    "userPassword": "wdwdwdw",
+    "smtpConnectivity": "Tls",
+    "isAuthenticationRequired": true
+  },
+  "pinrestrictconfig": {
+    "pinDigits": 20,
+    "isDuplicatePinAllowed": true,
+    "noStartPinCharacters": "1,2,4,5",
+    "configurationId": "1234"
+  },
+  "acsonboard": {
+    "configurationId": "acace9be-fa9c-4099-b3c6-e94548cbd637",
+    "serverName": "ACS1",
+    "acsStateCheckbox": true,
+    "ipAddress": "103.103.213.33",
+    "correspondingBadgeHolderAdGroup": "AD4",
+    "acsType": "HYD",
+    "correspondingOperatorAdGroup": "AD2",
+    "acsNotifyemail": "jaggu@email.com",
+    "acsNotifyemailOptional": "jaggu@email.com"
+  },
+  "acsonboardList": [
+    {
+      "configurationId": "02992f29-0877-4d38-8f17-22981b764458",
+      "onboardedAcsServerName": "ACS1",
+      "ipAddress": "103.103.213.33",
+      "acsType": "ewfdreds-sawqwadsad",
+      "createdDate": "07/08/2020 15:20:05"
+    },
+    {
+      "configurationId": "02992f29-0877-4d38-8f17-22981b753442",
+      "onboardedAcsServerName": "ACS2",
+      "ipAddress": "133.103.113.33",
+      "acsType": "120",
+      "createdDate": "10/08/2020 16:20:05"
+    },
+    {
+      "configurationId": "02992f29-0877-4d38-8f17-2233233442",
+      "onboardedAcsServerName": "ACS3",
+      "ipAddress": "133.103.113.33",
+      "acsType": "609",
+      "createdDate": "07/08/2020 16:20:05"
+    },
+    {
+      "configurationId": "02992f29-0877-1wer-8f17-2233233442",
+      "onboardedAcsServerName": "ACS3",
+      "ipAddress": "133.103.113.33",
+      "acsType": "850",
+      "createdDate": "07/08/2020 16:20:05"
+    },
+    {
+      "configurationId": "67613306-c061-4c39-9336-ede634019c91",
+      "onboardedAcsServerName": "Ballia",
+      "ipAddress": "11.11.11.11",
+      "acsType": "403",
+      "createdDate": "07/08/2020 16:20:05"
+    },
+    {
+      "configurationId": "3fdbcfba-e785-4bce-9f7d-443e34c2a48c",
+      "onboardedAcsServerName": "VNS2",
+      "enableDisableAcs": false,
+      "ipAddress": "11.11.11.11",
+      "acsType": "850",
+      "createdDate": "11/08/2020 19:00:05"
+    }
+  ],
+  "acsonboardAll": [
+    {
+      "configurationId": "02992f29-0877-4d38-8f17-22981b764458",
+      "acsServerName": "ACS1",
+      "enableDisableAcs": true,
+      "ipAddress": "103.103.213.33",
+      "correspondingBadgeHolderAdGroup": "AD1",
+      "acsType": "ewfdreds-sawqwadsad",
+      "correspondingOperatorAdGroup": "AD1",
+      "notifiyOnSyncFailure": "user1@email.com",
+      "notifiyOnSyncFailureOptional": "user1@email.com",
+      "id": 1
+    },
+    {
+      "configurationId": "02992f29-0877-4d38-8f17-22981b753442",
+      "acsServerName": "ACS2",
+      "enableDisableAcs": true,
+      "ipAddress": "133.103.113.33",
+      "correspondingBadgeHolderAdGroup": "AD2",
+      "acsType": "120",
+      "correspondingOperatorAdGroup": "AD2",
+      "notifiyOnSyncFailure": "user2@email.com",
+      "notifiyOnSyncFailureOptional": "user2@email.com",
+      "CreatedAt": "10/08/2020 16:20:05",
+      "id": 2
+    },
+    {
+      "configurationId": "02992f29-0877-4d38-8f17-2233233442",
+      "acsServerName": "ACS3",
+      "enableDisableAcs": true,
+      "ipAddress": "133.103.113.33",
+      "correspondingBadgeHolderAdGroup": "MYS",
+      "acsType": "609",
+      "correspondingOperatorAdGroup": "MYS",
+      "notifiyOnSyncFailure": "user3@email.com",
+      "notifiyOnSyncFailureOptional": "user3@email.com",
+      "CreatedAt": "07/08/2020 16:20:05",
+      "id": 3
+    },
+    {
+      "configurationId": "02992f29-0877-1wer-8f17-2233233442",
+      "acsServerName": "ACS3",
+      "enableDisableAcs": true,
+      "ipAddress": "133.103.113.33",
+      "correspondingBadgeHolderAdGroup": "MYS",
+      "acsType": "850",
+      "correspondingOperatorAdGroup": "MYS",
+      "notifiyOnSyncFailure": "user3@email.com",
+      "notifiyOnSyncFailureOptional": "user3@email.com",
+      "CreatedAt": "07/08/2020 16:20:05",
+      "id": 5
+    },
+    {
+      "configurationId": "67613306-c061-4c39-9336-ede634019c91",
+      "acsServerName": "Ballia",
+      "enableDisableAcs": true,
+      "ipAddress": "11.11.11.11",
+      "correspondingBadgeHolderAdGroup": "AD13",
+      "acsType": "403",
+      "correspondingOperatorAdGroup": "AD-12",
+      "notifiyOnSyncFailure": "aaaa1@aaa.com",
+      "notifiyOnSyncFailureOptional": "aaa2@aa.com",
+      "id": 6
+    },
+    {
+      "configurationId": "a57dc301-ec7e-48ae-912c-fc9b26af3b85",
+      "acsServerName": "VNS",
+      "enableDisableAcs": false,
+      "ipAddress": "12.11.11.11",
+      "correspondingBadgeHolderAdGroup": "VNS-Group",
+      "correspondingOperatorAdGroup": "AD-13",
+      "notifiyOnSyncFailure": "vns1@gmail.com",
+      "notifiyOnSyncFailureOptional": "vns2@gmail.com",
+      "id": 7
+    },
+    {
+      "configurationId": "3fdbcfba-e785-4bce-9f7d-443e34c2a48c",
+      "acsServerName": "VNS2",
+      "enableDisableAcs": false,
+      "ipAddress": "11.11.11.11",
+      "correspondingBadgeHolderAdGroup": "VNS-GRP",
+      "acsType": "850",
+      "correspondingOperatorAdGroup": "VNS_Grp2",
+      "notifiyOnSyncFailure": "VNS1@gmail.com",
+      "notifiyOnSyncFailureOptional": "VNS2@gmail.com",
+      "id": 8
+    },
+    {
+      "configurationId": "52fd8138-230d-4f4e-b49b-39a0563ea9a6",
+      "acsServerName": "CJN",
+      "enableDisableAcs": true,
+      "ipAddress": "103.103.213.33",
+      "correspondingBadgeHolderAdGroup": "AGCGN",
+      "acsType": "609",
+      "correspondingOperatorAdGroup": "AD2",
+      "notifiyOnSyncFailure": "jaggu@email.com",
+      "notifiyOnSyncFailureOptional": "",
+      "id": 9
+    }
+  ],
+  "postMapping": {
+    "operators": [
+      {
+        "echmsProperty": "asdasdasd",
+        "isAdProperty": true,
+        "adProperty": "asdasdasd",
+        "isUnique": true,
+        "priority": 1,
+        "rowOrder": 0
+      },
+      {
+        "echmsProperty": "sdsdsd",
+        "isAdProperty": true,
+        "adProperty": "xzxzxzxz",
+        "isUnique": false,
+        "priority": 2,
+        "rowOrder": 1
+      },
+      {
+        "echmsProperty": "asasa",
+        "isAdProperty": true,
+        "adProperty": "asasasa",
+        "isUnique": false,
+        "priority": "2",
+        "rowOrder": 2
+      }
+    ],
+    "badgeHolders": [
+      {
+        "echmsProperty": "asdasdasd",
+        "isAdProperty": true,
+        "adProperty": "asdasdasda",
+        "isUnique": false,
+        "priority": 2,
+        "rowOrder": 0
+      },
+      {
+        "echmsProperty": "asadasdasd",
+        "isAdProperty": true,
+        "adProperty": "asdasdasdsadsad",
+        "isUnique": true,
+        "priority": 2,
+        "rowOrder": 1
+      },
+      {
+        "echmsProperty": "sas1233",
+        "isAdProperty": true,
+        "adProperty": "aas",
+        "isUnique": false,
+        "priority": 2,
+        "rowOrder": 2
+      },
+      {
+        "echmsProperty": "ssss",
+        "isAdProperty": true,
+        "adProperty": "ssssss",
+        "isUnique": false,
+        "priority": 2,
+        "rowOrder": 3
+      },
+      {
+        "echmsProperty": "sdsdsds",
+        "isAdProperty": true,
+        "adProperty": "sdsdsdsd",
+        "isUnique": false,
+        "priority": "1",
+        "rowOrder": 4
+      },
+      {
+        "echmsProperty": "abc",
+        "isAdProperty": true,
+        "adProperty": "abc",
+        "isUnique": false,
+        "priority": 0,
+        "rowOrder": 5
+      }
+    ]
+  },
+  "acsType": {
+    "AcsTypeList": [
+      {
+        "AcsTypeID": "ewfdreds-sawqwadsad",
+        "AcsType": "MYS",
+        "CreatedAt": "2020-07-22 01:00:00",
+        "id": 2
+      },
+      {
+        "AcsTypeID": "120",
+        "AcsType": "BLR",
+        "CreatedAt": "2020-07-29 15:46:30",
+        "id": 4
+      },
+      {
+        "AcsTypeID": "609",
+        "AcsType": "HYD",
+        "CreatedAt": "2020-07-29 15:48:43",
+        "id": 5
+      },
+      {
+        "AcsTypeID": "609",
+        "AcsType": "BOM",
+        "CreatedAt": "2020-07-31 14:46:48",
+        "id": 6
+      },
+      {
+        "AcsTypeID": "850",
+        "AcsType": "Kerla",
+        "CreatedAt": "2020-07-31 15:01:42",
+        "id": 7
+      },
+      {
+        "AcsTypeID": "403",
+        "AcsType": "mysore acs type for save",
+        "CreatedAt": "2020-07-31 15:09:41",
+        "id": 8
+      },
+      {
+        "AcsTypeID": "161",
+        "AcsType": "blr acs type for save",
+        "CreatedAt": "2020-07-31 15:09:57",
+        "id": 9
+      },
+      {
+        "AcsTypeID": "57",
+        "AcsType": "wqewqewqewqeeeeeeeeeeeeqwewqeqw",
+        "CreatedAt": "2020-07-31 15:10:33",
+        "id": 10
+      },
+      {
+        "AcsTypeID": "504",
+        "AcsType": "wrewerwerwer",
+        "CreatedAt": "2020-07-31 15:10:37",
+        "id": 11
+      }
+    ]
+  },
+  "getACSMapping": {
+    "id": 1,
+    "guid": "ewfdreds-sawqwadsad",
+    "Operators": [
+      {
+        "MasterMappingId": "abc-cde",
+        "OperatorProperty": "email",
+        "RowOrder": 5,
+        "EchmsProperty": "Email",
+        "IsUnique": 0
+      },
+      {
+        "MasterMappingId": "pww-qer",
+        "OperatorProperty": "LastName",
+        "RowOrder": 3,
+        "EchmsProperty": "Lname",
+        "IsUnique": 1
+      },
+      {
+        "MasterMappingId": "yte-eer",
+        "OperatorProperty": "location",
+        "RowOrder": 2,
+        "EchmsProperty": "loc",
+        "IsUnique": 0
+      },
+      {
+        "MasterMappingId": "opi-etr",
+        "OperatorProperty": "uid",
+        "RowOrder": 4,
+        "EchmsProperty": "u#id",
+        "IsUnique": 0
+      },
+      {
+        "MasterMappingId": "fhsd-ert",
+        "OperatorProperty": "empID",
+        "RowOrder": 1,
+        "EchmsProperty": "emp",
+        "IsUnique": 0
+      }
+    ],
+    "Badgeholders": [
+      {
+        "MasterMappingId": "qas-pon",
+        "BadgeholderProperty": "email",
+        "RowOrder": 1,
+        "EchmsProperty": "email_id",
+        "IsUnique": 0
+      },
+      {
+        "MasterMappingId": "eet-ggt",
+        "BadgeholderProperty": "LastName",
+        "RowOrder": 2,
+        "EchmsProperty": "Lname",
+        "IsUnique": 1
+      },
+      {
+        "MasterMappingId": "ppt-oot",
+        "BadgeholderProperty": "location",
+        "RowOrder": 3,
+        "EchmsProperty": "loc",
+        "IsUnique": 0
+      },
+      {
+        "MasterMappingId": "eey-yyr",
+        "BadgeholderProperty": "uid",
+        "RowOrder": 4,
+        "EchmsProperty": "u_id",
+        "IsUnique": 0
+      },
+      {
+        "MasterMappingId": "ccd-poc",
+        "BadgeholderProperty": "empID",
+        "RowOrder": 5,
+        "EchmsProperty": "emp",
+        "IsUnique": 0
+      }
+    ]
+  },
+  "getACSMapping2": [
+    {
+      "id": 1,
+      "guid": "ewfdreds-sawqwadsad",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "email",
+          "RowOrder": 5,
+          "EchmsProperty": "Email",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "LastName",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 1
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "location",
+          "RowOrder": 2,
+          "EchmsProperty": "loc",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "uid",
+          "RowOrder": 4,
+          "EchmsProperty": "u#id",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "empID",
+          "RowOrder": 1,
+          "EchmsProperty": "emp",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "email",
+          "RowOrder": 1,
+          "EchmsProperty": "email_id",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "LastName",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 1
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "location",
+          "RowOrder": 3,
+          "EchmsProperty": "loc",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "uid",
+          "RowOrder": 4,
+          "EchmsProperty": "u_id",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "empID",
+          "RowOrder": 5,
+          "EchmsProperty": "emp",
+          "IsUnique": 0
+        }
+      ]
+    },
+    {
+      "guid": "17",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 2
+    },
+    {
+      "guid": "371",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 3
+    },
+    {
+      "guid": "50",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 4
+    },
+    {
+      "guid": "858",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 5
+    },
+    {
+      "guid": "83",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 6
+    },
+    {
+      "guid": "867",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 7
+    },
+    {
+      "guid": "116",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 8
+    },
+    {
+      "guid": "492",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 9
+    },
+    {
+      "guid": "427",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 10
+    },
+    {
+      "guid": "463",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 11
+    },
+    {
+      "guid": "753",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 12
+    },
+    {
+      "guid": "120",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 13
+    },
+    {
+      "guid": "568",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 14
+    },
+    {
+      "guid": "609",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 15
+    },
+    {
+      "guid": "850",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 16
+    },
+    {
+      "guid": "403",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 17
+    },
+    {
+      "guid": "161",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 18
+    },
+    {
+      "guid": "57",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 19
+    },
+    {
+      "guid": "504",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 20
+    },
+    {
+      "guid": "752",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 21
+    },
+    {
+      "guid": "126",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 22
+    },
+    {
+      "guid": "497",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 23
+    },
+    {
+      "guid": "620",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 24
+    },
+    {
+      "guid": "133",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 25
+    },
+    {
+      "guid": "98",
+      "Operators": [
+        {
+          "MasterMappingId": "abc-cde",
+          "OperatorProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "pww-qer",
+          "OperatorProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "yte-eer",
+          "OperatorProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "opi-etr",
+          "OperatorProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "fhsd-ert",
+          "OperatorProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "Badgeholders": [
+        {
+          "MasterMappingId": "qas-pon",
+          "BadgeholderProperty": "",
+          "RowOrder": 1,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eet-ggt",
+          "BadgeholderProperty": "",
+          "RowOrder": 2,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ppt-oot",
+          "BadgeholderProperty": "",
+          "RowOrder": 3,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "eey-yyr",
+          "BadgeholderProperty": "",
+          "RowOrder": 4,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        },
+        {
+          "MasterMappingId": "ccd-poc",
+          "BadgeholderProperty": "",
+          "RowOrder": 5,
+          "EchmsProperty": "Lname",
+          "IsUnique": 0
+        }
+      ],
+      "id": 26
+    }
+  ]
+}
