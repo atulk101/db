@@ -424,30 +424,6 @@
         "AcsType": "Kerla",
         "CreatedAt": "2020-07-31 15:01:42",
         "id": 7
-      },
-      {
-        "AcsTypeID": "403",
-        "AcsType": "mysore acs type for save",
-        "CreatedAt": "2020-07-31 15:09:41",
-        "id": 8
-      },
-      {
-        "AcsTypeID": "161",
-        "AcsType": "blr acs type for save",
-        "CreatedAt": "2020-07-31 15:09:57",
-        "id": 9
-      },
-      {
-        "AcsTypeID": "57",
-        "AcsType": "wqewqewqewqeeeeeeeeeeeeqwewqeqw",
-        "CreatedAt": "2020-07-31 15:10:33",
-        "id": 10
-      },
-      {
-        "AcsTypeID": "504",
-        "AcsType": "wrewerwerwer",
-        "CreatedAt": "2020-07-31 15:10:37",
-        "id": 11
       }
     ]
   },
